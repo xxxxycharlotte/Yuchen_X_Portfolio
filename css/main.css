@@ -1,0 +1,70 @@
+/*FONTS*/
+/*
+font-family: 'Yantramanav', sans-serif;
+font-family: 'Black Ops One', cursive;
+font-family: 'Norican', cursive;*/
+
+
+
+/*BOX HELPER*/
+header{margin-bottom: 20px;}
+#headerCon{background-color: #25378e;}
+
+
+/*General rules here for elements*/
+body{background: #fff;}
+
+
+
+/*section{margin-bottom: 0px;background:url(../images/galaxy-pic.jpg) ;}*/
+
+
+/*Header and Nav*/
+
+#mainNav{float: left; margin-top: 15px;}
+#mainNav  li a{color: white;margin-right: 20px;}
+#mainNav  li a:hover{color: #011e41;}
+
+#indexPage{
+	background: url(../images/banner.jpg);
+}
+
+
+#aboutPage{
+	background: #fff;
+}
+
+
+#hobbies img{
+	width: 150px;
+	height: 150px;
+}
+
+#skillPage {
+	background-color: #011e41;
+}
+
+#portfolioPage {
+	background-color: #fff;
+}
+
+#contactPage {
+	background-color: #e6e265;
+}
+
+.footerpage {
+	background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
