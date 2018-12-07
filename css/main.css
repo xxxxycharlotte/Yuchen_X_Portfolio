@@ -1,29 +1,36 @@
-/*FONTS*/
-/*
-font-family: 'Yantramanav', sans-serif;
-font-family: 'Black Ops One', cursive;
-font-family: 'Norican', cursive;*/
+@charset "UTF-8";
 
-
-
-/*BOX HELPER*/
-header{margin-bottom: 20px;}
-#headerCon{background-color: #25378e;}
+header {
+	margin-bottom: 20px;
+}
+#headerCon {
+	background-color: #25378e;
+}
 
 
 /*General rules here for elements*/
-body{background: #fff;}
+body {
+	background: #fff;
+}
 
-
-
-/*section{margin-bottom: 0px;background:url(../images/galaxy-pic.jpg) ;}*/
 
 
 /*Header and Nav*/
 
-#mainNav{float: left; margin-top: 15px;}
-#mainNav  li a{color: white;margin-right: 20px;}
-#mainNav  li a:hover{color: #011e41;}
+#mainNav {
+	float: left; 
+	margin-top: 15px;
+	background-color:#25378e; 
+}
+
+#mainNav  li a {
+	color: white;
+	margin-right: 20px;
+}
+
+#mainNav  li a:hover {
+	color: #011e41;
+}
 
 #indexPage{
 	background: url(../images/banner.jpg);
@@ -34,6 +41,30 @@ body{background: #fff;}
 	background: #fff;
 }
 
+#aboutPage h2 {
+	font-family: font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	color:#25378e;
+	text-align: center; 
+	margin-top: 15px;
+}
+
+#about{
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+#about img {
+	height:300px;
+	width: 300px;
+}
+
+#about p{
+	font-family: font-family: 'Encode Sans Condensed', sans-serif;
+	font-size: 24px;
+	color: #011e41;
+	text-align: center;
+}
 
 #hobbies img{
 	width: 150px;
@@ -42,18 +73,122 @@ body{background: #fff;}
 
 #skillPage {
 	background-color: #011e41;
+	margin-top: 40px;
+}
+
+#skillPage h3{
+	font-family: font-family: 'Raleway', sans-serif;
+	font-size: 48px;
+	color: #fff;
+	text-align: center;
+}
+
+#skill {
+	margin-top: 30px;
+}
+
+#skill img {
+	width: 100px;
+	height: 100px;
 }
 
 #portfolioPage {
 	background-color: #fff;
 }
 
+#portfolioPage h1 {
+	font-family: font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	color:#25378e; 
+	text-align: center;
+}
+
+#portfolioPage p{
+	font-family: font-family: 'Encode Sans Condensed', sans-serif;
+	font-size: 30spx;
+	color:#25378e; 
+	text-align: center;
+}
+
+#portfolio {
+	margin-top: 30px;
+}
+
+#portfolio img {
+
+}
+
+#lo {
+	margin-top: 20px;
+}
+
+#lo img {
+	float: center;
+}
+
+#website {
+	margin-top: 20px;
+}
+
+#website img {
+	float: center;
+}
+
+
 #contactPage {
 	background-color: #e6e265;
 }
 
+#contactPage h5 {
+	font-family: font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	color:#25378e;
+	text-align: center; 
+}
+
+#contact h6{
+	font-family: font-family: 'Raleway', sans-serif;
+	font-size: 40px;
+	color:#011e41;
+	text-align: center; 
+}
+
+#contact p {
+	font-family: font-family: 'Encode Sans Condensed', sans-serif;
+	font-size: 24px;
+	color: #011e41;
+	text-align: center;
+}
+
+#contact ul {
+	list-style-type: none;
+}
+
+#contact ul li {
+	display: inline;
+	cursor: pointer
+}
+
+#contact ul li a img {
+	width: 60px;
+	height: 60px;
+	margin-right: 35px;
+}
+
+#le {
+	margin-top: 29px;
+}
+
 .footerpage {
 	background-color: #fff;
+	margin-top: 25px;
+}
+
+.footerpage p {
+	font-family: font-family: 'Encode Sans Condensed', sans-serif;
+	font-size: 18px;
+	color: #011e41;
+	text-align: center;
 }
 
 

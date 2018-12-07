@@ -7,12 +7,12 @@ $mailForm = $_POST['email'];
 $message = $_POST['message'];
 
 
-$mailTo = "550356048xyc@gmail.com";
+$mailTo = "y_xia59790@fanshaweonlie.ca";
 $headers = "From: noreply@yuchenxia.com". "\r\n";
 $headers = 'Reply-To:'.$mailForm;
-$text ="You have received an e-mail from" .$name. ".\r\n".$message;
+$txt ="You have received an e-mail from" .$name. ".\n\n".$message;
 
-if (mail($mailTo, $subject, $tet, $headers)) {
+if (mail($mailTo, $subject, $txt, $headers)) {
 	
 header("Location:/index.html");
 }else {
