@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="css/foundation.css">
 	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Raleway:700" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
-      <script src="js/wow.min.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
   </head>
 	
 	
@@ -70,7 +68,7 @@
     	<div class="row" >
     		<section id="title" >
     			<div class="columns small-12 large-12">
-    			<p>Web Designer<br><span>&</span>Web Develper</p>
+    			<p>Web Designer<br><span>&</span>Web Developer</p>
     			</div>
     		</section>
     	</div>
@@ -103,7 +101,7 @@
 			<div class="columns small-12 large-8">
 				<div class="row">
 					<div class="columns small-12 large-12">
-						<p>My name is Yuchen Xia. I’m a passionate, dedicated and dynamic Front-End Developer and Graphic & Web Designer.I study in Fanshawe College with a Diploma in Interactive Media Design where I learned hands-on skills required for graphic and motion design.</p>
+						<p>My name is Yuchen Xia. I’m a passionate, dedicated and dynamic <span>Front-End Developer and Graphic & Web Designer</span>.I study in Fanshawe College with a Diploma in Interactive Media Design where I learned hands-on skills required for graphic and motion design.</p>
 					</div>
 				</div>
 
@@ -142,18 +140,22 @@
 			<section id="skill">
 				<div class="columns small-12 large-3">
 					<img src="images/web.svg" alt="website">
+					<h2>Web Development</h2>
 					<p>Close collaboration with developers up until the finsh line and beynd.</p>
 				</div>
 				<div class="columns small-12 large-3">
 					<img src="images/sketch.svg" alt="draw">
+					<h2>Web Design</h2>
 					<p>I develop innovative logo designs and illustrations for both print and web design.</>
 				</div>
 				<div class="columns small-12 large-3">
 					<img src="images/price-tag.svg" alt="branding">
-					<p>I create full brand guides to outline a consistent look for your company.</p>
+					<h2>Branding</h2>
+					<p >I create full brand guides to outline a consistent look for your company.</p>
 				</div>
 				<div class="columns small-12 large-3">
 					<img src="images/3d.svg" alt="motion">
+					<h2>Motion</h2>
 					<p>Familiar with Cinema 4D and Adobe After Effect that can do motion product.</p>
 				</div>
 			</section>
@@ -172,28 +174,28 @@
 
 		<div class="row">
 			<section id="portfolio">
-				<div class="columns small-12 large-5">
+				<div class="columns small-12 large-4">
 					<img src="images/portfolio_10.jpg" alt="sport">
 				</div>
-				<div class="columns small-12 large-5">
+				<div class="columns small-12 large-4">
 					<img src="images/portfolio_12.jpg" alt="wendy">
 				</div>
-				<div class="columns small-12 large-2">
-					<img src="images/portfolio_07.jpg" alt="tattoo">
+				<div class="columns small-12 large-4">
+					<img src="images/portfolio_15.jpg" alt="heart">
 				</div>
 			</section>
 		</div>
 
 		<div class="row">
 			<section id="lo">
-				<div class="columns small-12 large-3">
+				<div class="columns small-12 large-4">
 					<img src="images/portfolio_17.jpg" alt="parent">
 				</div>
-				<div class="columns small-12 large-3">
+				<div class="columns small-12 large-4">
 					<img src="images/portfolio_18.jpg" alt="tl">
 				</div>
-				<div class="columns small-12 large-6">
-					<img src="images/portfolio_20.jpg" alt="heart">
+				<div class="columns small-12 large-4">
+					<img src="images/portfolio_07.jpg" alt="tattoo" class="tattoo">
 				</div>
 			</section>
 		</div>
@@ -214,7 +216,7 @@
 
 		<div class="row">
 			<div class="columns small-12 large-12">
-				<p>Video</p>
+				<p>VIDEO</p>
 			</div>
 		</div>
 
@@ -253,15 +255,15 @@
 				</div>
 
 				<div class="columns small-12 large-8">
-					<form id="contactForm" action="/includes/contactForm.php" method="post">
+					<form id="contactform" action="/includes/contactform.php" method="post">
 						<label for="name">Name: (required)</label>
-						<input type="text" required size="30" placeholder="Enter your name" id="name" name="name"><br>
+						<input type="text" required size="30" placeholder="Enter your name" id="name" name="name">
 
 						<label for="email">Email: (required)</label>
-						<input type="email" required size="30" placeholder="Enter your email" id="email" name="email"><br>
+						<input type="email" required size="30" placeholder="Enter your email" id="email" name="email">
 
 						<label for="message">Message</label>
-                        <textarea id="message" required cols="25" rows="10" name="message"></textarea><br>
+                        <textarea id="message" required cols="25" rows="10" name="message"></textarea>
 
                         <button id="Submit" type="submit" name="submit">Submit</button>
 					</form>
@@ -284,13 +286,14 @@
    
     
     
-
+ <script src="js/wow.min.js"></script>
+ <script>
+              new WOW().init();
+              </script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     
-              <script>
-              new WOW().init();
-              </script>
+              
    <script src="js/app.js"></script>  </body>
 </html>

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 header {
-	margin-bottom: 20px;
+	
 }
 #headerCon {
 	background-color: #25378e;
@@ -33,12 +33,12 @@ body {
 }
 
 #indexPage{
-	background: url(../images/banner.jpg);
+	background: url(../images/banner.jpg) no-repeat 0 0;
 }
 
 #logo h1{
-	font-family: font-family: 'Raleway', sans-serif;
-	font-size: 50px;
+	font-family: 'MS Sans Serif', sans-serif;
+	font-size: 65px;
 	color:#e6e265;
 	text-align: center; 
 	margin-top: 15px;
@@ -46,30 +46,30 @@ body {
 
 .button {
 	display: block;
-	width: 100px;
+	width: 150px;
 	padding: 15px;
 	color: #FFF;
 	background-color: #dd2c1a;
-	text-align: left;
-	margin-top: 20px;
-	font-size: 14px;
-	margin-bottom: 50PX;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 30PX;
 	float: right;
+	margin-right: 40px;
 }
 
-.resBut:hover
+.button:hover
 {
 	background-color: #9f3224;
 }
 
 #title p {
-	font-family: font-family: 'Raleway', sans-serif;
-	font-size: 30px;
+	font-family: 'MS Sans Serif', sans-serif;
+	font-size: 40px;
 	color:#fff;
 	float: right;
 	text-align: left; 
-	margin-top: 15px;
-	margin-left: 30px;
+	margin-top: 80px;
+	margin-right: 40px;
 }
 
 #title p span {
@@ -82,15 +82,16 @@ body {
 }
 
 #aboutPage h2 {
-	font-family: font-family: 'Raleway', sans-serif;
-	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 35px;
 	color:#25378e;
 	text-align: center; 
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 #about{
 	overflow: hidden;
+	margin-top: 40px;
 }
 
 #about img {
@@ -99,15 +100,32 @@ body {
 }
 
 #about p{
-	font-family: font-family: 'Encode Sans Condensed', sans-serif;
+	font-family: 'Encode Sans Condensed', sans-serif;
 	font-size: 24px;
 	color: #011e41;
 	text-align: center;
 }
 
+#about p span {
+	color: #0d6ab1;
+	font-size: 29px;
+}
+
+#hobbies {
+	margin-top: 35px;
+}
+
 #hobbies img{
-	width: 150px;
-	height: 150px;
+	width: 120px;
+	height: 120px;
+}
+
+#hobbies p{
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-size: 20px;
+	color: #011e41;
+	text-align: center;
+	margin-top: 25px;
 }
 
 #skillPage {
@@ -115,8 +133,9 @@ body {
 }
 
 #skillPage h3{
-	font-family: font-family: 'Raleway', sans-serif;
-	font-size: 48px;
+	margin-top: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
 	color: #fff;
 	text-align: center;
 }
@@ -126,41 +145,57 @@ body {
 }
 
 #skill img {
-	width: 100px;
-	height: 100px;
+	float: center;
+	width: 70px;
+	height: 70px;
+	
 }
 
-#skill p {
-	font-family: font-family: 'Encode Sans Condensed', sans-serif;
-	font-size: 20px;
+
+#skill h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
 	color: #e6e265;
 	text-align: center;
 	margin-top: 25px;
 }
+#skill p {
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+
 
 #portfolioPage {
 	background-color: #fff;
 }
 
 #portfolioPage h1 {
-	font-family: font-family: 'Raleway', sans-serif;
-	font-size: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
 	color:#25378e; 
 	text-align: center;
+	margin-top: 50px;
 }
 
 #portfolioPage p{
-	font-family: font-family: 'Encode Sans Condensed', sans-serif;
-	font-size: 30spx;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
 	color:#25378e; 
 	text-align: center;
+	margin-top: 50px;
 }
 
 #portfolio {
 	margin-top: 30px;
 }
 
-#portfolio img {
+.tattoo {
+	margin-top: 15px;
 
 }
 
@@ -180,7 +215,9 @@ body {
 	float: center;
 }
 
-video{width:700px; }
+video {
+	width:700px; 
+}
 
 
 #contactPage {
@@ -188,22 +225,24 @@ video{width:700px; }
 }
 
 #contactPage h5 {
-	font-family: font-family: 'Raleway', sans-serif;
-	font-size: 50px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
 	color:#25378e;
-	text-align: center; 
+	text-align: center;
+	margin-top: 30px; 
 }
 
 #contact h6{
-	font-family: font-family: 'Raleway', sans-serif;
-	font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+	font-size: 25px;
 	color:#011e41;
 	text-align: center; 
+	margin-bottom: 25px;
 }
 
 #contact p {
-	font-family: font-family: 'Encode Sans Condensed', sans-serif;
-	font-size: 24px;
+	font-family:'Encode Sans Condensed', sans-serif;
+	font-size: 18px;
 	color: #011e41;
 	text-align: center;
 }
@@ -215,6 +254,7 @@ video{width:700px; }
 #contact ul li {
 	display: inline;
 	cursor: pointer
+	margin-top:20px;
 }
 
 #contact ul li a img {
@@ -227,35 +267,30 @@ video{width:700px; }
 	margin-top: 29px;
 }
 
+#Submit{
+    display: block;
+	width: 100px;
+	padding: 15px;
+	color: #FFF;
+	background-color: #dd2c1a;
+	text-align: center;
+	margin-top: 10px;
+	font-size: 15px;
+	margin-bottom: 50PX;
+	float: right;
+}
 .footerpage {
 	background-color: #fff;
 }
 
 .footerpage p {
-	font-family: font-family: 'Encode Sans Condensed', sans-serif;
-	font-size: 18px;
+	margin-top: 20px;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	font-size: 14px;
 	color: #011e41;
 	text-align: center;
 }
 
-@media screen and (min-width:25em){
-	#indexText{width: 400px;height: 180px; font-size: 12px;}
-	.about-title{margin-top: 40px;}
-	/*#mainNav li a{display: inline;}*/
-}
-
-@media screen and (min-width:40em){
-	#indexText{width: 500px;font-size: 12px;}
-	
-}
-
-@media screen and (min-width:60em){
-	#indexText{width: 550px;height: 200px; font-size: 18px;margin-left: 200px;}
-	
-}
-@media screen and (min-width:64em){
-	#indexText{margin-left: 330px;}
-}
 
 
 
