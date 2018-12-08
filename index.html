@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/foundation.css">
 	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Raleway:700" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
   </head>
 	
 	
@@ -93,7 +95,7 @@
 		<div class="row">
 			<section id ="about">
 			<div class="columns small-12 large-4">
-				<div class="wow bounce" >
+				<div class="wow bounceIn" >
                    <img src="images/Portfolio_03.jpg" alt="pho" class="float-center">
                 </div>
 				
@@ -108,17 +110,21 @@
 				<div class="row">
 					<section id="hobbies">
 					<div class="columns small-12 large-4">
-						<div class="wow bounce">
-						<img src="images/watching-tv.svg" alt="tv" class="float-center">
+						<div class="wow zoomIn" data-wow-duration="0.6s" data-wow-delay="0s">
+						    <img src="images/watching-tv.svg" alt="tv" class="float-center">
 						</div>
 						<p>Movies Addict</p>
 					</div>
 					<div class="columns small-12 large-4">
-						<img src="images/brush.svg" alt="paint" class="float-center">
+                        <div class="wow zoomIn" data-wow-duration="0.6s" data-wow-delay="0.4s">
+                            <img src="images/brush.svg" alt="paint" class="float-center">
+                        </div>
 						<p>Painting Lover</p>
 					</div>
 					<div class="columns small-12 large-4">
-						<img src="images/joystick.svg" alt="game" class="float-center">
+                        <div class="wow zoomIn" data-wow-duration="0.6s" data-wow-delay="0.6s">
+                            <img src="images/joystick.svg" alt="game" class="float-center">
+                        </div>
 						<p>Gamer</p>
 					</div>
 					</section>
@@ -139,22 +145,30 @@
 		<div class="row">
 			<section id="skill">
 				<div class="columns small-12 large-3">
-					<img src="images/web.svg" alt="website" class="float-center">
+                    <div class="wow bounce">
+                        <img src="images/web.svg" alt="website" class="float-center">
+                    </div>
 					<h2>Web Development</h2>
-					<p>Close collaboration with developers up until the finsh line and beynd.</p>
+					<p>Close collaboration with developers up until the finsh line and beyond.</p>
 				</div>
 				<div class="columns small-12 large-3">
-					<img src="images/sketch.svg" alt="draw" class="float-center">
+                    <div class="wow bounce">
+                        <img src="images/sketch.svg" alt="draw" class="float-center">
+                    </div>
 					<h2>Web Design</h2>
 					<p>I develop innovative logo designs and illustrations for both print and web design.</>
 				</div>
 				<div class="columns small-12 large-3">
-					<img src="images/price-tag.svg" alt="branding" class="float-center">
+                    <div class="wow bounce">
+                        <img src="images/price-tag.svg" alt="branding" class="float-center">
+                    </div>
 					<h2>Branding</h2>
 					<p >I create full brand guides to outline a consistent look for your company.</p>
 				</div>
 				<div class="columns small-12 large-3">
-					<img src="images/3d.svg" alt="motion" class="float-center">
+                    <div class="wow bounce">
+                        <img src="images/3d.svg" alt="motion" class="float-center">
+                    </div>
 					<h2>Motion</h2>
 					<p>Familiar with Cinema 4D and Adobe After Effect that can do motion product.</p>
 				</div>
@@ -175,13 +189,37 @@
 		<div class="row">
 			<section id="portfolio">
 				<div class="columns small-12 large-4">
-					<img src="images/portfolio_10.jpg" alt="sport" class="float-center">
+                    <div class="mask-animation">
+                        <img src="images/portfolio_10.jpg" alt="sport" class="float-center">
+                        <div class="block-text">
+                            <h3>
+                                Branding
+                            </h3>
+                            <p>Sport Team</p>
+                        </div>
+                    </div>
 				</div>
 				<div class="columns small-12 large-4">
-					<img src="images/portfolio_12.jpg" alt="wendy" class="float-center">
+                    <div class="mask-animation">
+                        <img src="images/portfolio_12.jpg" alt="wendy" class="float-center">
+                        <div class="block-text">
+                            <h3>
+                                Branding
+                            </h3>
+                            <p>Wendy's Packaging</p>
+                        </div>
+                    </div>
 				</div>
 				<div class="columns small-12 large-4">
-					<img src="images/portfolio_15.jpg" alt="heart" class="float-center">
+                    <div class="mask-animation">
+                        <img src="images/portfolio_15.jpg" alt="heart" class="float-center">
+                        <div class="block-text">
+                            <h3>
+                                Branding
+                            </h3>
+                            <p>Organ Donation</p>
+                        </div>
+                    </div>
 				</div>
 			</section>
 		</div>
@@ -189,13 +227,37 @@
 		<div class="row">
 			<section id="lo">
 				<div class="columns small-12 large-4">
-					<img src="images/portfolio_17.jpg" alt="parent" class="float-center">
+                    <div class="mask-animation">
+                        <img src="images/portfolio_17.jpg" alt="parent" class="float-center">
+                        <div class="block-text">
+                            <h3>
+                                Logo
+                            </h3>
+                            <p>Parent Brand</p>
+                        </div>
+                    </div>
 				</div>
 				<div class="columns small-12 large-4">
-					<img src="images/portfolio_18.jpg" alt="tl" class="float-center">
+                    <div class="mask-animation">
+                        <img src="images/portfolio_18.jpg" alt="tl" class="float-center">
+                        <div class="block-text">
+                            <h3>
+                                Logo
+                            </h3>
+                            <p>Organ Donation</p>
+                        </div>
+                    </div>
 				</div>
 				<div class="columns small-12 large-4">
-					<img src="images/portfolio_07.jpg" alt="tattoo" class="float-center">
+                    <div class="mask-animation">
+                        <img src="images/portfolio_07.jpg" alt="tattoo" class="float-center">
+                        <div class="block-text">
+                            <h3>
+                                Graphic Design
+                            </h3>
+                            <p>Tattoo</p>
+                        </div>
+                    </div>
 				</div>
 			</section>
 		</div>
@@ -203,13 +265,37 @@
 		<div class="row">
 			<section id="website">
 				<div class="columns small-12 large-4">
-					<img src="images/portfolio_29.jpg" alt="roku"class="float-center">
+                    <div class="mask-animation">
+                        <img src="images/portfolio_29.jpg" alt="roku"class="float-center">
+                        <div class="block-text">
+                            <h3>
+                                Website Design
+                            </h3>
+                            <p>Roku video app</p>
+                        </div>
+                    </div>
 				</div>
 				<div class="columns small-12 large-4">
-					<img src="images/portfolio_25.jpg" alt="car" class="float-center">
+                    <div class="mask-animation">
+                        <img src="images/portfolio_25.jpg" alt="car" class="float-center">
+                        <div class="block-text">
+                            <h3>
+                                Website Design
+                            </h3>
+                            <p>Car Promo</p>
+                        </div>
+                    </div>
 				</div>
 				<div class="columns small-12 large-4">
-					<img src="images/portfolio_27.jpg" alt="info" class="float-center">
+                    <div class="mask-animation">
+                        <img src="images/portfolio_27.jpg" alt="info" class="float-center">
+                        <div class="block-text">
+                            <h3>
+                                Graphic Design
+                            </h3>
+                            <p>Universe Infographic</p>
+                        </div>
+                    </div>
 				</div>
 			</section>
 		</div>
@@ -224,7 +310,7 @@
 		    <div id="wrapper" class="small-12 medium-8 medium-centered columns" >
 		 
 		  <section class="lightbox">
-        <span class="close-lightbox">x</span>
+        <span class="close-lightbox"></span>
         <!-- add the other 2 video sources for fallback / standards -->
         <video autoplay controls>
             <source src="video/demoreel.mp4" type="video/mp4">
@@ -249,7 +335,7 @@
 					<p>Whether you're interested in working together, or if you just want to tell me what you think about my site, I'd love to hear from you.</p>
 					<ul>
 						<li><a href="https://github.com/xxxxycharlotte"><img src="images/github-sign.svg" alt="github"></a></li>
-						<li><a href="https://www.weibo.com/1845098814/profile?topnav=1&wvr=6&is_all=1"><img src="images/weibo-social-logo.svg" alt="weibo"></a></li>
+						<li><a href="https://www.weibo.com/u/1845098814?topnav=1&wvr=6&topsug=1&is_all=1"><img src="images/weibo-social-logo.svg" alt="weibo"></a></li>
 						<li><a href="https://www.instagram.com/xxycharlottexx/"><img src="images/instagram.svg" alt="ins"></a></li>
 					</ul>
 				</div>
@@ -281,19 +367,24 @@
     </footer>
 
 
-	  
+	  <div id="lightbox">
+        <div class="lightbox-inner">
+            <div class="lightbox-close">x</div>
+            <img id="lightboximg" src="images/portfolio_27.jpg" alt="info">
+        </div>
+      </div>
+
+
     
-   
-    
-    
- <script src="js/wow.min.js"></script>
- <script>
-              new WOW().init();
-              </script>
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/what-input.js"></script>
+<script src="js/vendor/foundation.js"></script>
     
               
-   <script src="js/app.js"></script>  </body>
+<script src="js/app.js"></script>  
+</body>
 </html>

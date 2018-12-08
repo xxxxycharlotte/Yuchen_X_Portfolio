@@ -1,306 +1,410 @@
 @charset "UTF-8";
+header {}
 
-header {
-	
-}
 #headerCon {
-	background-color: #25378e;
+    background-color: #25378e;
 }
-
 
 /*General rules here for elements*/
+
 body {
-		background-color:#25378e; 
+    background-color: #25378e;
 }
-
-
 
 /*Header and Nav*/
 
 #mainNav {
-	float: left; 
-	margin-top: 15px;
-
+    float: left;
+    margin-top: 15px;
 }
 
-#mainNav  li a {
-	color: white;
-	margin-right: 20px;
+#mainNav li a {
+    color: white;
+    margin-right: 20px;
 }
 
-#mainNav  li a:hover {
-	color: #011e41;
+#mainNav li a:hover {
+    color: #011e41;
 }
 
-#indexPage{
-	background: url(../images/banner.jpg) no-repeat 0 0;
+#indexPage {
+    background: url(../images/banner.jpg) no-repeat 0 0;
 }
 
-#logo h1{
-	font-family: 'MS Sans Serif', sans-serif;
-	font-size: 65px;
-	color:#e6e265;
-	text-align: center; 
-	margin-top: 15px;
+#logo h1 {
+    font-family: 'MS Sans Serif', sans-serif;
+    font-size: 60px;
+    color: #e6e265;
+    text-align: center;
+    margin-top: 15px;
 }
 
 .button {
-	display: block;
-	width: 150px;
-	padding: 15px;
-	color: #FFF;
-	background-color: #dd2c1a;
-	text-align: center;
-	font-size: 16px;
-	margin-bottom: 30PX;
-	float: right;
-	margin-right: 40px;
+    display: block;
+    width: 130px;
+    padding: 15px;
+    color: #FFF;
+    background-color: #dd2c1a;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30PX;
+    float: right;
+    margin-right: 40px;
 }
 
-.button:hover
-{
-	background-color: #9f3224;
+.button:hover {
+    background-color: #9f3224;
 }
 
 #title p {
-	font-family: 'MS Sans Serif', sans-serif;
-	font-size: 40px;
-	color:#fff;
-	float: right;
-	text-align: left; 
-	margin-top: 80px;
-	margin-right: 40px;
+    font-family: 'MS Sans Serif', sans-serif;
+    font-size: 35px;
+    color: #fff;
+    float: right;
+    text-align: left;
+    margin-top: 80px;
+    margin-right: 40px;
 }
 
 #title p span {
-	color: #dd2c1a;
+    color: #dd2c1a;
 }
 
-
-#aboutPage{
-	background: #fff;
+#aboutPage {
+    background: #fff;
 }
 
 #aboutPage h2 {
-	font-family: 'Raleway', sans-serif;
-	font-size: 35px;
-	color:#25378e;
-	text-align: center; 
-	margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    color: #25378e;
+    text-align: center;
+    margin-top: 50px;
 }
 
-#about{
-	overflow: hidden;
-	margin-top: 40px;
+#about {
+    overflow: hidden;
+    margin-top: 40px;
 }
 
 #about img {
-	height:300px;
-	width: 300px;
+    height: 300px;
+    width: 300px;
 }
 
-#about p{
-	font-family: 'Encode Sans Condensed', sans-serif;
-	font-size: 24px;
-	color: #011e41;
-	text-align: center;
+#about p {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 24px;
+    color: #011e41;
+    text-align: center;
 }
 
 #about p span {
-	color: #0d6ab1;
-	font-size: 29px;
+    color: #0d6ab1;
+    font-size: 29px;
 }
 
 #hobbies {
-	margin-top: 35px;
+    margin-top: 35px;
 }
 
-#hobbies img{
-	width: 120px;
-	height: 120px;
+#hobbies img {
+    width: 120px;
+    height: 120px;
 }
 
-#hobbies p{
-	font-family: 'Encode Sans Condensed', sans-serif;
-	font-size: 20px;
-	color: #011e41;
-	text-align: center;
-	margin-top: 25px;
+#hobbies p {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 20px;
+    color: #011e41;
+    text-align: center;
+    margin-top: 25px;
 }
 
 #skillPage {
-	background-color: #011e41;
+    background-color: #011e41;
 }
 
-#skillPage h3{
-	margin-top: 50px;
-	font-family: 'Raleway', sans-serif;
-	font-size: 30px;
-	color: #fff;
-	text-align: center;
+#skillPage h3 {
+    margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
 }
 
 #skill {
-	margin-top: 100px;
+    margin-top: 100px;
 }
 
 #skill img {
-	float: center;
-	width: 70px;
-	height: 70px;
-	
+    float: center;
+    width: 70px;
+    height: 70px;
 }
-
 
 #skill h2 {
-	font-family: 'Raleway', sans-serif;
-	font-size: 30px;
-	color: #e6e265;
-	text-align: center;
-	margin-top: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #e6e265;
+    text-align: center;
+    margin-top: 25px;
 }
+
 #skill p {
-	font-family: 'Encode Sans Condensed', sans-serif;
-	font-size: 15px;
-	color: #fff;
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 80px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
-
-
 
 #portfolioPage {
-	background-color: #fff;
+    background-color: #fff;
 }
 
 #portfolioPage h1 {
-	font-family: 'Raleway', sans-serif;
-	font-size: 30px;
-	color:#25378e; 
-	text-align: center;
-	margin-top: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #25378e;
+    text-align: center;
+    margin-top: 50px;
 }
 
-#portfolioPage p{
-	font-family: 'Raleway', sans-serif;
-	font-size: 25px;
-	color:#25378e; 
-	text-align: center;
-	margin-top: 50px;
+#portfolioPage p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: #25378e;
+    text-align: center;
+    margin-top: 50px;
 }
 
 #portfolio {
-	margin-top: 30px;
+    margin-top: 30px;
 }
 
 .tattoo {
-	margin-top: 15px;
-
+    margin-top: 15px;
 }
 
 #lo {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 #lo img {
-	float: center;
+    float: center;
 }
 
 #website {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 #website img {
-	float: center;
+    float: center;
 }
 
 video {
-	width:700px; 
+    width: 100%;
 }
 
-
 #contactPage {
-	background-color: #e6e265;
+    background-color: #e6e265;
 }
 
 #contactPage h5 {
-	font-family: 'Raleway', sans-serif;
-	font-size: 30px;
-	color:#25378e;
-	text-align: center;
-	margin-top: 30px; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #25378e;
+    text-align: center;
+    margin-top: 30px;
 }
 
-#contact h6{
+#contact h6 {
     font-family: 'Raleway', sans-serif;
-	font-size: 25px;
-	color:#011e41;
-	text-align: center; 
-	margin-bottom: 25px;
+    font-size: 25px;
+    color: #011e41;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 #contact p {
-	font-family:'Encode Sans Condensed', sans-serif;
-	font-size: 18px;
-	color: #011e41;
-	text-align: center;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 18px;
+    color: #011e41;
+    text-align: center;
 }
 
 #contact ul {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 #contact ul li {
-	display: inline;
-	cursor: pointer
-	margin-top:20px;
+    display: inline;
+    cursor: pointer margin-top:20px;
 }
 
 #contact ul li a img {
-	width: 60px;
-	height: 60px;
-	margin-right: 35px;
+    width: 60px;
+    height: 60px;
+    margin-right: 35px;
 }
 
 #le {
-	margin-top: 29px;
+    margin-top: 29px;
 }
 
-#Submit{
-    display: block;
-	width: 100px;
-	padding: 15px;
-	color: #FFF;
-	background-color: #dd2c1a;
-	text-align: center;
-	margin-top: 10px;
-	font-size: 15px;
-	margin-bottom: 50PX;
-	float: right;
+#contactform {
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 12px;
+    color: #011e41;
+    text-align: left;
 }
+
+#Submit {
+    display: block;
+    width: 100px;
+    font-family: 'MS Sans Serif', sans-serif;
+    padding: 15px;
+    color: #FFF;
+    background-color: #dd2c1a;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 50PX;
+    float: right;
+}
+
 .footerpage {
-	background-color: #fff;
+    background-color: #fff;
 }
 
 .footerpage p {
-	margin-top: 20px;
-	font-family: 'Encode Sans Condensed', sans-serif;
-	font-size: 14px;
-	color: #011e41;
-	text-align: center;
+    margin-top: 20px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    font-size: 14px;
+    color: #011e41;
+    text-align: center;
 }
 
+.columns {
+    text-align: center;
+}
 
+.mask-animation {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
 
+.mask-animation::before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    content: '';
+}
 
+.mask-animation .block-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
 
+.mask-animation .block-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.mask-animation .block-text h3 {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
 
+.mask-animation .block-text p {
+    color: #fff !important;
+    font-size: 32px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
 
+.columns:hover .mask-animation::before {
+    visibility: visible;
+    opacity: 1;
+}
 
+.columns:hover .block-text {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+}
 
+.mask-animation img {
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
 
+.columns:hover img {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
 
-
-
+#lightbox {
+    -webkit-transition: opacity 0.3s, visibility 0s 0s;
+    transition: opacity 0.3s, visibility 0s 0s;
+    opacity: 0;
+    z-index: 999;
+    display: none;
+    background: rgba(0, 0, 0, 0.85);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+#lightbox .lightbox-inner{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.lightbox-close{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #0d96c0;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    line-height: 56px;
+    cursor: pointer;
+}
+#lightbox img{
+    display: block;
+    margin: 0 auto;
+}
+.lightbox-show{
+    opacity: 1!important;
+}
