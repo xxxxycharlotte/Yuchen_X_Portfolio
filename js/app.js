@@ -8,7 +8,6 @@
   var 
     lightbox = document.querySelector(".lightbox"),
       closeLBox = lightbox.querySelector(".close-lightbox"),
-      sigils = document.querySelectorAll(".sigilContainer"),
     vidPlayer = lightbox.querySelector("video"),
     offSet = 600,
     currentSource,
@@ -71,6 +70,8 @@
   }
 
   loadXMLDoc("http://www.google.com");
+
+
 
   $(".mask-animation").on("click", function() {
     var img = $(this)
