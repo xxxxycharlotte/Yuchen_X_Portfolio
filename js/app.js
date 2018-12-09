@@ -15,15 +15,10 @@
     houseName = "demoreel",
     theExt = ".mp4";
 
-  //(1) add array for taglines, replace text with each animation
-
-
-  //functions
+  
 
   function closeLightBox() {
-    //(2) complete this function
     lightbox.classList.remove("show-lightbox");
-    //vidPlayer.currentTime = 0; //rewinds video to start
   }
 
 
@@ -37,16 +32,15 @@
     vidPlayer.play();
   }
 
-  //events and listeners
-
   closeLBox.addEventListener("click", closeLightBox);
 
   for (var i = 0; i < sigils.length; i++) {
     sigils[i].addEventListener("click", moveBanner, false);
   }
 
-  //(4) when video finishes playing, also close the lightbox
   vidPlayer.addEventListener("ended", closeLightBox);
+
+  
 
   var xmlhttp;
   function loadXMLDoc(url) {

@@ -7,7 +7,7 @@ $mailFrom = $_POST['email'];
 $message = $_POST['message'];
 
 
-// $mailTo = "azusakaworu@gmail.com";
+
 $mailTo = "y_xia59790@fanshaweonline.ca";
 $headers ="From: noreply@yuchenxia.com". "\r\n";
 $headers .='Reply-To:'.$mailFrom;
