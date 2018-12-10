@@ -7,7 +7,8 @@
 
   var 
     lightbox = document.querySelector(".lightbox"),
-      closeLBox = lightbox.querySelector(".close-lightbox"),
+    sigils = document.querySelectorAll(".sigilContainer"),
+    closeLBox = lightbox.querySelector(".close-lightbox"),
     vidPlayer = lightbox.querySelector("video"),
     offSet = 600,
     currentSource,
